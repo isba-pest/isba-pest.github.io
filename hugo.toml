@@ -1,0 +1,133 @@
+baseurl = "/"
+title = "ISBA Budapest dojo"
+languageCode = "hu-hu"
+defaultContentLanguage = "hu"
+paginate = "10" # Number of posts per page
+theme = "mainroad"
+disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+# [Author] # Used in authorbox
+#   name = "Pintér Gergő"
+#   bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+#   avatar = "img/avatar.png"
+
+[Params]
+  description = "ISBA Budapest dojo" # Site description. Used in meta description
+  copyright = "" # Footer copyright holder, otherwise will use site title
+  opengraph = true # Enable OpenGraph if true
+  schema = true # Enable Schema
+  twitter_cards = true # Enable Twitter Cards if true
+  readmore = false # Show "Read more" button in list if true
+  authorbox = false # Show authorbox at bottom of pages if true
+  toc = false # Enable Table of Contents
+  pager = false # Show pager navigation (prev/next links) at the bottom of pages if true
+  # post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
+  post_meta = [] # Order of post meta information
+  # mainSections = ["post", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
+  mainSections = []
+  dateformat = "2006-01-02" # Change the format of dates
+  mathjax = false # Enable MathJax
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
+  customCSS = ["css/custom.css"] # Include custom CSS files
+  customJS = ["js/custom.js"] # Include custom JS files
+
+[Params.style.vars]
+  highlightColor = "#e22d30" # Override highlight color
+
+  # Override font-family sets
+  # Take care of different quotes OR escaping symbols in these params if necessary
+  fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
+  # Secondary font-family set responsible for pre, code, kbd, and samp tags font
+  fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+
+[Params.logo]
+  image = "images/logo.png" # Logo image. Path relative to "static"
+  title = "ISBA Budapest dojo" # Logo title, otherwise will use site title
+  subtitle = "Jujutsu Seisuikan Budapest" # Logo subtitle
+
+[Params.thumbnail]
+  visibility = ["list", "post"] # Control thumbnail visibility
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = false  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  # widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+  widgets = ["social", "languages"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  categories_counter = false # Enable counter for each category in "Categories" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget
+
+[Params.widgets.social]
+  cached = false # activate cache if true
+  # Enable parts of social widget
+  facebook = "jujutsudojobudapest"
+  # twitter = "username"
+  # instagram = "username"
+  # linkedin = "username"
+  # telegram = "username"
+  # github = "username"
+  # gitlab = "username"
+  # bitbucket = "username"
+  email = "jureczi@gmail.com"
+
+[[Params.widgets.social.custom]]
+  title = "(+36) 30 385 6094"
+  icon = "svg/phone.svg" # Optional. Path relative to "layouts/partials"
+  url = "#"
+
+# Custom social links
+# [[Params.widgets.social.custom]]
+#   title = "Youtube"
+#   url = "https://youtube.com/user/username"
+#   icon = "youtube.svg" # Optional. Path relative to "layouts/partials"
+#   rel = "noopener noreferrer" # Set to false to remove the rel attribute
+
+# [[Params.widgets.social.custom]]
+#   title = "My Home Page"
+#   url = "https://example.com"
+
+[Params.widgets.search]
+  cached = false # activate cache if true
+  url = "https://google.com/search"
+  [Params.widgets.search.input]
+    name = "sitesearch"
+    pre = ""
+
+
+[menu]
+# [[menu.main]]
+#   name = 'Főoldal'
+#   pageRef = '/'
+#   weight = 10
+# [[menu.main]]
+#   name = 'Mestereink'
+#   pageRef = '/mestereink/'
+#   weight = 20
+# [[menu.main]]
+#   name = 'Edzések'
+#   pageRef = '/edzesek/'
+#   weight = 30
+[[menu.main]]
+  name = 'Harcművészet'
+  pageRef = '/categories/Harcművészet'
+  weight = 20
+[[menu.main]]
+  name = 'Leírások'
+  pageRef = '/categories/Leírások'
+  weight = 50
+[[menu.main]]
+  name = 'Vizsgaanyagok'
+  pageRef = '/categories/Vizsgaanyagok'
+  weight = 70
+[[menu.main]]
+  name = 'Galéria'
+  pageRef = '/galeria'
+  weight = 80
+
