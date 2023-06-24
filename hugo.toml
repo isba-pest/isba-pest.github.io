@@ -103,18 +103,6 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 
 [menu]
-# [[menu.main]]
-#   name = 'Főoldal'
-#   pageRef = '/'
-#   weight = 10
-# [[menu.main]]
-#   name = 'Mestereink'
-#   pageRef = '/mestereink/'
-#   weight = 20
-# [[menu.main]]
-#   name = 'Edzések'
-#   pageRef = '/edzesek/'
-#   weight = 30
 [[menu.main]]
   name = 'Harcművészet'
   pageRef = '/categories/Harcművészet'
