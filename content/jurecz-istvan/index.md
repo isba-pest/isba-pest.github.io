@@ -45,3 +45,12 @@ A következő mérföldkő a 2013. évi Budapesten megrendezett első magyarorsz
 2019\. évben Budapesten megrendezett nyári szeminárium záró ünnepségén Jujutsu 6. dan fokozatot, Tanbo mokuroku tekercset vehettem át.
 
 Ezen tekercsek tulajdonosaként (Magyarországon egyedüliként) shihan Jun Osano  a tradicionális japán harcművészet (Jujutsu, Iaijutsu, Tanbo) tanulását befejezettnek ismeri el,  küldetésem az edzéseken való oktatás és a gyakorlás lett.
+
+{{< figure src="nihon-jujutsu-6.dan.jpg" caption="Jujutsu 6. dan" >}}
+{{< figure src="jurecz-istvan-shihan.jpg" caption="shihan minősítés" >}}
+
+{{< figure src="iaijutsu-4.dan.jpg" caption="Iaijutsu 4. dan" >}}
+{{< figure src="kobudo-3.dan.jpg" caption="Kobudo 3. dan" >}}
+
+{{< figure src="menkyo-tekercsek.jpg" caption="Menkyo tekercsek" >}}
+{{< figure src="tanbo-makimono.jpg" caption="Tanbo mokuroku tekercs" >}}
