@@ -3,7 +3,8 @@ title = "ISBA Budapest dojo"
 languageCode = "hu-hu"
 defaultContentLanguage = "hu"
 paginate = "10" # Number of posts per page
-theme = "mainroad"
+# theme = "mainroad"
+theme = ["github.com/Vimux/Mainroad"]
 disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
@@ -131,3 +132,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   pageRef = '/galeria'
   weight = 80
 
+
+[module]
+[[module.imports]]
+  path = 'github.com/Vimux/Mainroad'
