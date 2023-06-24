@@ -1,0 +1,7 @@
+{{- $src := .Get "src" -}}
+{{- $caption := .Get "caption" -}}
+<figure style="display: inline-block">
+    <img src="{{ $src }}"
+         alt="{{ $caption }}">
+    <figcaption>{{ $caption }}</figcaption>
+</figure>
