@@ -1,0 +1,12 @@
+<div class="widget-sidemenu widget">
+	<div class="links">
+		<div class="widget__title">{{ T "links_title" }}</div>
+		<div>
+			<ul>
+			{{- range .Params.links}}
+			<li><a class="widget__link" href="{{.url}}">{{.text}}</a></li>
+			{{- end }}
+			</ul>
+		</div>
+	</div>
+</div>
