@@ -1,0 +1,19 @@
+<script src="/js/photoswipe/photoswipe.umd.min.js"></script>
+<script src="/js/photoswipe/photoswipe-lightbox.umd.min.js"></script>
+<div class="pswp-gallery">
+{{- range (readDir (printf "content/%s" .Page.File.Dir) ) }}
+{{- if or (hasSuffix .Name ".jpg") (hasSuffix .Name ".jpeg") }}
+    <a href="{{ .Name }}" data-pswp-srcset="{{ .Name }}" data-pswp-width="1080" data-pswp-height="608">
+        <img src="{{ .Name }}" width="250"/>
+    </a>
+{{- end }}
+{{- end }}
+</div>
+<script type="text/javascript">
+    var lightbox = new PhotoSwipeLightbox({
+    gallery: '.pswp-gallery',
+    children: 'a',
+    pswpModule: PhotoSwipe
+    });
+    lightbox.init();
+</script>
