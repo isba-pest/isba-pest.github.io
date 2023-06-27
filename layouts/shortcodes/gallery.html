@@ -3,7 +3,8 @@
 <div class="pswp-gallery">
 {{- range (readDir (printf "content/%s" .Page.File.Dir) ) }}
 {{- if or (hasSuffix .Name ".jpg") (hasSuffix .Name ".jpeg") }}
-    <a href="{{ .Name }}" data-pswp-srcset="{{ .Name }}" data-pswp-width="1080" data-pswp-height="608">
+{{- $img := imageConfig (printf "content/%s/%s" $.Page.File.Dir .Name) }}
+    <a href="{{ .Name }}" data-pswp-srcset="{{ .Name }}" data-pswp-width="{{ $img.Width }}" data-pswp-height="{{ $img.Height }}">
         <img src="{{ .Name }}" width="250"/>
     </a>
 {{- end }}
