@@ -29,7 +29,7 @@ links:
 >
 > (japán közmondás)
 
-Edzőtermünk Budapest IX. kerületében, a Gönczy Pál utca 2. szám alatt található, ahol a japán tradicionális pusztakezes ([Nihon Jûjutsu](/nihon-jujutsu)), eszközös ([Kobudo](/kobudo)), kardvívás ([Kenjutsu](/kenjutsu)) és a szamurájkard ([Iaijutsu](/isijutsu)) harcművészeteket gyakorolhatod, valamint önvédelmet tanulhatsz.
+Edzőtermünk Budapest IX. kerületében, a Gönczy Pál utca 2. szám alatt található, ahol a japán tradicionális pusztakezes ([Nihon Jûjutsu](/nihon-jujutsu)), eszközös ([Kobudo](/kobudo)), kardvívás ([Kenjutsu](/kenjutsu)) és a szamurájkard ([Iaijutsu](/isijutsu)) harcművészeteket gyakorolhatod, valamint [önvédelmet](/onvedelem)) tanulhatsz.
 
 Az edzéseket vezeti: [shihan Jurecz István](/jurecz-istvan)
 - Nihon Jûjutsu 6. dan
