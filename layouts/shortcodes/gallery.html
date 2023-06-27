@@ -2,7 +2,7 @@
 <script src="/js/photoswipe/photoswipe-lightbox.umd.min.js"></script>
 <div class="pswp-gallery">
 {{- range (readDir (printf "content/%s" .Page.File.Dir) ) }}
-{{- if or (hasSuffix .Name ".jpg") (hasSuffix .Name ".jpeg") }}
+{{- if or (strings.HasSuffix .Name ".jpg") (strings.HasSuffix .Name ".jpeg") }}
 {{- $img := imageConfig (printf "content/%s/%s" $.Page.File.Dir .Name) }}
     <a href="{{ .Name }}" data-pswp-srcset="{{ .Name }}" data-pswp-width="{{ $img.Width }}" data-pswp-height="{{ $img.Height }}">
         <img src="{{ .Name }}" width="250"/>
