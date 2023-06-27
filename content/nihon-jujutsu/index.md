@@ -8,6 +8,9 @@ widgets:
 links:
     - url: "/vizsgaanyagok/nihon-jujutsu/"
       text: "Vizsgaanyag"
+links:
+    - url: "/galeria/edzes/nihon-jujutsu/"
+      text: "Galéria"
 ---
 
 A Jûjutsu az egyik legősibb Japán harcművészeti rendszer. Önálló rendszer, saját képzési tematikával.

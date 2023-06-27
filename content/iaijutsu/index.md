@@ -8,6 +8,8 @@ widgets:
 links:
     - url: "/vizsgaanyagok/iaijutsu/"
       text: "Vizsgaanyag"
+    - url: "/galeria/edzes/iai-jutsu/"
+      text: "Galéria"
 ---
 ![](iaijutsu.jpg)
 

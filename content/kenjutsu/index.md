@@ -2,6 +2,12 @@
 title: "Kenjutsu"
 categories:
     - Harcművészet
+sidebar: true
+widgets:
+    - links
+links:
+    - url: "/galeria/edzes/ken-jutsu/"
+      text: "Galéria"
 ---
 ![](kenjutsu.jpg)
 
