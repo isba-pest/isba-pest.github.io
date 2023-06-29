@@ -2,6 +2,14 @@ baseurl = "/"
 title = "ISBA Budapest dojo"
 languageCode = "hu-hu"
 defaultContentLanguage = "hu"
+[languages]
+  [languages.hu]
+    title = 'ISBA Budapest dojo'
+    weight = 1
+  [languages.en]
+    title = 'ISBA Budapest dojo'
+    weight = 2
+
 paginate = "10" # Number of posts per page
 # theme = "mainroad"
 theme = ["github.com/Vimux/Mainroad"]
