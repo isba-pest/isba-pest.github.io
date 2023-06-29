@@ -46,7 +46,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
 
 [Params.logo]
-  image = "images/logo.png" # Logo image. Path relative to "static"
+  image = "images/webre.jpg" # Logo image. Path relative to "static"
   title = "ISBA Budapest dojo" # Logo title, otherwise will use site title
   subtitle = "Jujutsu Seisuikan Budapest" # Logo subtitle
 
@@ -82,7 +82,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 [[Params.widgets.social.custom]]
   title = "(+36) 30 385 6094"
   icon = "svg/phone.svg" # Optional. Path relative to "layouts/partials"
-  url = "#"
+  # url = "#"
 
 [[Params.widgets.social.custom]]
   title = "Gönczy Pál u 2. (Posta alatt)"
