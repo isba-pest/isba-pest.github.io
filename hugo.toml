@@ -4,9 +4,11 @@ languageCode = "hu-hu"
 defaultContentLanguage = "hu"
 [languages]
   [languages.hu]
+    # languageName = 'magyar'
     title = 'ISBA Budapest dojo'
     weight = 1
   [languages.en]
+    # languageName = 'English'
     title = 'ISBA Budapest dojo'
     weight = 2
 
@@ -40,7 +42,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
   mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
   googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
-  customCSS = ["css/photoswipe.css"] # Include custom CSS files
+  customCSS = ["css/photoswipe.css", "css/custom.css"] # Include custom CSS files
   # customJS = ["js/custom.js"] # Include custom JS files
   # customJS = ["js/photoswipe/photoswipe.umd.min.js", "js/photoswipe/photoswipe-lightbox.umd.min.js"] # Include custom JS files
 
@@ -97,6 +99,12 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   icon = "svg/position-marker.svg" # Optional. Path relative to "layouts/partials"
   url = "https://www.google.com/maps/place/Budapest,+G%C3%B6nczy+P%C3%A1l+u.+2,+1093/@47.4873046,19.0573666,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc5aa0942df3:0x48ecf04aaeb66f51!8m2!3d47.487301!4d19.0599415!16s%2Fg%2F11bw41jcz3?entry=ttu"
 
+[[Params.widgets.social.custom]]
+  title = "YouTube"
+  url = "https://youtube.com/@budapestdojoseisuikan7782"
+  icon = "svg/youtube.svg" # Optional. Path relative to "layouts/partials"
+  rel = "noopener noreferrer" # Set to false to remove the rel attribute
+
 # Custom social links
 # [[Params.widgets.social.custom]]
 #   title = "Youtube"
@@ -116,22 +124,46 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
     pre = ""
 
 
-[menu]
-[[menu.main]]
+[[languages.hu.menu.main]]
+  identifier = 'category_martial_art'
   name = 'Harcművészet'
   pageRef = '/categories/Harcművészet'
   weight = 20
-[[menu.main]]
+[[languages.hu.menu.main]]
+  identifier = 'category_post'
   name = 'Leírások'
   pageRef = '/categories/Leírások'
   weight = 50
-[[menu.main]]
+[[languages.hu.menu.main]]
+  identifier = 'category_exam_system'
   name = 'Vizsgaanyagok'
   pageRef = '/categories/Vizsgaanyagok'
   weight = 70
-[[menu.main]]
+[[languages.hu.menu.main]]
+  identifier = 'category_gallery'
   name = 'Galéria'
   pageRef = '/galeria'
+  weight = 80
+
+[[languages.en.menu.main]]
+  identifier = 'category_martial_art'
+  name = 'Martial arts'
+  pageRef = '/categories/martial-arts'
+  weight = 20
+[[languages.en.menu.main]]
+  identifier = 'category_post'
+  name = 'Posts'
+  pageRef = '/categories/post'
+  weight = 50
+[[languages.en.menu.main]]
+  identifier = 'category_exam_system'
+  name = 'Exam system'
+  pageRef = '/categories/exam-system'
+  weight = 70
+[[languages.en.menu.main]]
+  identifier = 'category_gallery'
+  name = 'Gallery'
+  pageRef = '/gallery'
   weight = 80
 
 
