@@ -2,16 +2,6 @@ baseurl = "/"
 title = "ISBA Budapest dojo"
 languageCode = "hu-hu"
 defaultContentLanguage = "hu"
-[languages]
-  [languages.hu]
-    # languageName = 'magyar'
-    title = 'ISBA Budapest dojo'
-    weight = 1
-  [languages.en]
-    # languageName = 'English'
-    title = 'ISBA Budapest dojo'
-    weight = 2
-
 paginate = "10" # Number of posts per page
 # theme = "mainroad"
 theme = ["github.com/Vimux/Mainroad"]
@@ -123,6 +113,15 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
     name = "sitesearch"
     pre = ""
 
+[languages]
+  [languages.hu]
+    # languageName = 'magyar'
+    title = 'ISBA Budapest dojo'
+    weight = 1
+  [languages.en]
+    # languageName = 'English'
+    title = 'ISBA Budapest dojo'
+    weight = 2
 
 [[languages.hu.menu.main]]
   identifier = 'category_martial_art'
