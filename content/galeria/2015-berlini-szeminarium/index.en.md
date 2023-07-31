@@ -1,7 +1,7 @@
 ---
-title: 2015 - berlini szeminárium
+title: 2015 - seminar in Berlin
 categories:
-    - Galéria
+    - Gallery
 ---
 
 {{< gallery >}}
