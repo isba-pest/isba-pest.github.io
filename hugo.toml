@@ -149,11 +149,11 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   name = 'Martial arts'
   pageRef = '/categories/martial-arts'
   weight = 20
-[[languages.en.menu.main]]
-  identifier = 'category_post'
-  name = 'Posts'
-  pageRef = '/categories/post'
-  weight = 50
+# [[languages.en.menu.main]]
+#   identifier = 'category_post'
+#   name = 'Posts'
+#   pageRef = '/categories/post'
+#   weight = 50
 [[languages.en.menu.main]]
   identifier = 'category_exam_system'
   name = 'Exam system'
