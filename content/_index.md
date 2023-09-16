@@ -8,6 +8,7 @@ menu:
     name: Főoldal
     weight: 1
 widgets:
+  - languages
   - social
   - links
 links:
