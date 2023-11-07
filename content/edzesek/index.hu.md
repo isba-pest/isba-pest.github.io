@@ -27,7 +27,7 @@ widgets:
 ## Iaijutsu
 
 - Kedd: 17:00 - 18:00 h
-- Csütörtök: 17:00 - 18:00 h
+- Csütörtök: 15:30 - 17:00 h
 - (ajánlott viselet: hakama)
 - [leírás](/iaijutsu)
 
@@ -35,7 +35,7 @@ widgets:
 ## Kenjutsu
 
 - Kedd: 17:00 - 18:00 h
-- Csütörtök: 17:00 - 18:00 h
+- Csütörtök: 15:30 - 17:00 h
 - (ajánlott viselet: hakama)
 - [leírás](/kenjutsu)
 
