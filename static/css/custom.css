@@ -1,3 +1,6 @@
 .widget-languages .widget__item {
     display: inline-block;
 }
+.widget-languages ul.widget__list li.widget__item:first-of-type {
+    margin-right: 1ex !important;
+}
