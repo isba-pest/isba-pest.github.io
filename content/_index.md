@@ -1,6 +1,6 @@
 ---
 title: ""
-description: Example test article that contains basic HTML elements for text formatting on the Web.
+description: ISBA seisuikan Budapest
 <!-- date: 2018-04-16 -->
 tags:
 menu:
