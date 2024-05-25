@@ -7,7 +7,7 @@
     <h3>{{ T "news_shortcut_title" }}</h3>
     <div class="news-content">
     {{- range (sort (where $list "expiration" "gt" (now | time.Format "2006-01-02")) "expiration" "asc") }}
-    <div class="element">
+    <div class="element" data-expiration="{{.expiration}}">
             {{index .message (string $.Site.Language) }}
     </div>
     {{- end }}
