@@ -25,6 +25,8 @@ links:
     text: Magyar Ju Jitsu Szövetség
 ---
 
+{{< news >}}
+
 > White river is flowing without changing the sound even if it reflects the shadow of 100 grasses. Even when you meet an enemy, you must be like that.
 >
 > (Japanese proverb)

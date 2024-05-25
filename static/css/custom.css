@@ -4,3 +4,23 @@
 .widget-languages ul.widget__list li.widget__item:first-of-type {
     margin-right: 1ex !important;
 }
+
+.news-section .element {
+    border-right: 5px solid #e22d30;
+    margin-bottom: 0.75em;
+    padding: 0.25em;
+}
+
+.news-section .news-content {
+    border: 2px solid #2a2a2a;
+    margin-bottom: 2em;
+    padding: 0.5em;
+}
+
+.news-section h3 {
+     background-color: #2a2a2a;
+     margin:0;
+     color: white;
+     padding: 0.25ex 1ex;
+     text-transform: uppercase;
+}

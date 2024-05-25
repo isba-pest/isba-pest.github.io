@@ -97,3 +97,9 @@
     "<b>Tipp:</b> Megjeleníthet annyi szakaszt, amennyit csak akar a \
     <b><a href=\"https://gohugo.io/functions/where/#mainsections\" rel=\"nofollow noopener\" target=\"_blank\">mainSections</a></b> \
     konfigurációs paraméterrel."
+
+- id: category_martial_art
+  translation: Harcművészet
+
+- id: news_shortcut_title
+  translation: hírek

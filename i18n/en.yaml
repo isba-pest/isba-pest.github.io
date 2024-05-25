@@ -1,3 +1,6 @@
 # Links widget
 - id: links_title
   translation: "Links"
+
+- id: news_shortcut_title
+  translation: news

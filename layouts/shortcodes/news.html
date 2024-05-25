@@ -1,0 +1,14 @@
+<section class="news-section">
+    <h3>{{ T "news_shortcut_title" }}</h3>
+    <div class="news-content">
+    {{- $list := (slice)}}
+    {{- range $filename, $news := .Site.Data.news }}
+    {{- $list = $list | append $news }}
+    {{- end }}
+    {{- range (sort (where $list "expiration" "gt" (now | time.Format "2006-01-02")) "expiration" "asc") }}
+    <div class="element">
+            {{index .message (string $.Site.Language) }}
+    </div>
+    {{- end }}
+    </div>
+</section>
