@@ -5,8 +5,9 @@ defaultContentLanguage = "hu"
 paginate = "10" # Number of posts per page
 # theme = "mainroad"
 theme = ["github.com/Vimux/Mainroad"]
-disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
-googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+[Services.googleAnalytics]
+  ID = ""
 
 # [Author] # Used in authorbox
 #   name = "Pintér Gergő"
@@ -34,6 +35,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
   customCSS = ["css/photoswipe.css", "css/custom.css"] # Include custom CSS files
   # customJS = ["js/custom.js"] # Include custom JS files
+  # customJS = ["js/sdk.js"] # Include custom JS files
   # customJS = ["js/photoswipe/photoswipe.umd.min.js", "js/photoswipe/photoswipe-lightbox.umd.min.js"] # Include custom JS files
 
 [Params.style.vars]
@@ -77,6 +79,11 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   # github = "username"
   # gitlab = "username"
   # bitbucket = "username"
+  email = "jureczi@gmail.com"
+  
+[languages.en.params.widgets.social]
+  cached = false # activate cache if true
+  facebook = "jujutsudojobudapest"
   email = "jureczi@gmail.com"
 
 [[Params.widgets.social.custom]]
