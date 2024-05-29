@@ -26,7 +26,7 @@ links:
     text: Magyar Ju Jitsu Szövetség
 ---
 
-{{< news >}}
+{{< news type="main" >}}
 
 
 > A fehér folyó vize csendben csordogál, még akkor is ha 100 fűszál árnyéka vetül rá. Ugyan úgy, ahogy ha mi találkozunk egy ellenséggel, nekünk is változatlannak kell lennünk.

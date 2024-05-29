@@ -10,6 +10,8 @@ widgets:
   - toc
 ---
 
+{{< news type="schedule" >}}
+
 ## Nihon Jujutsu
 
 - Monday: 17:00 - 19:00 h

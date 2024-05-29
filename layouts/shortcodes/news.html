@@ -2,6 +2,10 @@
 {{- range $filename, $news := .Site.Data.news }}
 {{- $list = $list | append $news }}
 {{- end }}
+{{- $type := .Get "type" -}}
+{{- with $type }}
+{{- $list = where $list "type" "eq" . }}
+{{- end}}
 {{- if gt (len $list) 0  }}
 <section class="news-section">
     <h3>{{ T "news_shortcut_title" }}</h3>

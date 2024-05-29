@@ -10,6 +10,8 @@ widgets:
   - toc
 ---
 
+{{< news type="schedule" >}}
+
 ## Nihon Jûjutsu
 
 - hétfő: 17:00 - 19:00
