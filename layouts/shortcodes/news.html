@@ -6,11 +6,12 @@
 {{- with $type }}
 {{- $list = where $list "type" "eq" . }}
 {{- end}}
-{{- if gt (len $list) 0  }}
+{{- $list = (where $list "expiration" "gt" (now | time.Format "2006-01-02")) }}
+{{- if gt (len $list) 0 }}
 <section class="news-section">
     <h3>{{ T "news_shortcut_title" }}</h3>
     <div class="news-content">
-    {{- range (sort (where $list "expiration" "gt" (now | time.Format "2006-01-02")) "expiration" "asc") }}
+    {{- range (sort $list "expiration" "asc") }}
     <div class="element" data-expiration="{{.expiration}}">
             {{index .message (string $.Site.Language) }}
     </div>
