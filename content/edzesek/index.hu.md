@@ -6,8 +6,8 @@ menu:
     name: Edzések
     weight: 10
 sidebar: true
-widgets:
-  - toc
+#widgets:
+#  - toc
 ---
 
 {{< news type="schedule" >}}
