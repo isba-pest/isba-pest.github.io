@@ -2,7 +2,7 @@ baseurl = "/"
 title = "ISBA Budapest dojo"
 languageCode = "hu-hu"
 defaultContentLanguage = "hu"
-paginate = "10" # Number of posts per page
+pagination.pagerSize = 10
 # theme = "mainroad"
 theme = ["github.com/Vimux/Mainroad"]
 
@@ -80,7 +80,7 @@ theme = ["github.com/Vimux/Mainroad"]
   # gitlab = "username"
   # bitbucket = "username"
   email = "jureczi@gmail.com"
-  
+
 [languages.en.params.widgets.social]
   cached = false # activate cache if true
   facebook = "jujutsudojobudapest"
